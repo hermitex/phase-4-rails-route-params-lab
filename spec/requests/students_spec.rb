@@ -17,8 +17,8 @@ RSpec.describe "Students", type: :request do
 
       expect(response.body).to include_json({
         id: a_kind_of(Integer),
-        first_name: 'Dwayne', 
-        last_name: 'Johnson', 
+        first_name: 'Dwayne',
+        last_name: 'Johnson',
         grade: 99
       })
     end
@@ -28,8 +28,8 @@ RSpec.describe "Students", type: :request do
 
       expect(response.body).to include_json({
         id: a_kind_of(Integer),
-        first_name: 'Idris', 
-        last_name: 'Elba', 
+        first_name: 'Idris',
+        last_name: 'Elba',
         grade: 105
       })
     end
@@ -58,7 +58,7 @@ RSpec.describe "Students", type: :request do
     #     ])
     #   end
     # end
-    
+
   end
-  
+
 end
